@@ -2,7 +2,7 @@
 /* eslint-disable no-console, import/extensions */
 
 import program from 'commander';
-import makeDiff from '../src/index.js';
+import makeDiff from '../index.js';
 
 program
   .version('0.0.1')

@@ -12,3 +12,6 @@ asciinema:
 
 make install link:
 	npm i 
+
+make test:
+	npx jest
