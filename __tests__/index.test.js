@@ -1,6 +1,5 @@
-/* eslint-disable no-console, import/extensions */
-
-import genDiff from '../src/index.js'
+/* eslint-disable no-console, import/extensions, no-undef */
+import genDiff from '../src/index.js';
 
 const result = `{
   - follow: false
@@ -12,5 +11,5 @@ const result = `{
 }`;
 
 test('Correct', () => {
-  expect(genDiff('./__tests__/file1.json', './__tests__/file2.json')).toBe(result)
-})
+  expect(genDiff('./__tests__/file1.json', './__tests__/file2.json')).toBe(result);
+});

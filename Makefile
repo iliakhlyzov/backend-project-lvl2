@@ -1,7 +1,4 @@
-link:
-	npm link
-
-eslint:
+lint:
 	npx eslint .
 
 asciinema:
