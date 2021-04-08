@@ -14,7 +14,7 @@ make install link:
 	npm i 
 
 make test:
-	npx jest
+	npm test
 
-make test_coverage:
-	npx jest --coverage
+make test-coverage:
+	npm test -- --coverage --coverageProvider=v8
