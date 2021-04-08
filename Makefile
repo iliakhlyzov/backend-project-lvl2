@@ -15,3 +15,6 @@ make install link:
 
 make test:
 	npx jest
+
+make test_coverage:
+	npx jest --coverage
