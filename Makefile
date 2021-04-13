@@ -21,3 +21,6 @@ make test-coverage:
 
 make install:
 	npm install deps
+
+dependency:
+	npm ci
