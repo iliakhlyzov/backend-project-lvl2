@@ -18,7 +18,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-      install: install-deps
+    - name: npm install
+      run: make install
       env:
           CI: true
     # - run: npm ci
