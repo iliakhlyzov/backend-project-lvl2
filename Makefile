@@ -18,3 +18,6 @@ make test:
 
 make test-coverage:
 	npm test -- --coverage --coverageProvider=v8
+
+make install:
+	npm install deps
