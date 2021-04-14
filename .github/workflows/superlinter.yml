@@ -29,7 +29,8 @@ jobs:
     - name: Test & publish code coverage
       uses: paambaati/codeclimate-action@v2.7.5
       env:
-        CC_TEST_REPORTER_ID: c64b9075ff0b0afc5effd130663faef1ec0f26574ee293ff559d7b5c5173b6b6
+        CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
+        # c64b9075ff0b0afc5effd130663faef1ec0f26574ee293ff559d7b5c5173b6b6
       with:
         # coverageLocations: ${{github.workspace}}/coverage/lcov.info:lcov
         coverageCommand: make test-coverage
