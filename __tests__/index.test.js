@@ -11,5 +11,5 @@ const result = `{
 }`;
 
 test('Correct', () => {
-  expect(genDiff('./__fixtures__/file1.json', './__fixtures__/file2.json')).toBe(result);
+  expect(genDiff('./__fixtures__/before.json', './__fixtures__/after.json')).toBe(result);
 });
