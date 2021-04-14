@@ -10,6 +10,10 @@ const result = `{
   + verbose: true
 }`;
 
-test('Correct', () => {
+test('json reads', () => {
   expect(genDiff('__fixtures__/before.json', '__fixtures__/after.json')).toBe(result);
+});
+
+test('yaml reads', () => {
+  expect(genDiff('__fixtures__/before.yml', '__fixtures__/after.yml')).toBe(result);
 });

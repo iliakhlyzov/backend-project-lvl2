@@ -1,16 +1,16 @@
 import { readFileSync } from 'fs';
 import path from 'path';
-// import { fileURLToPath } from 'url';
 import compare from './src/comparator.js';
-
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
+import parsers from './src/parsers.js';
 
 const getPathToFile = (filename) => path.resolve(filename);
+const getExtName = (pathToFile) => path.extname(pathToFile).slice(1);
 
 const getData = (pathToFile) => {
   const string = readFileSync(pathToFile, 'utf8');
-  return JSON.parse(string);
+  const extName = getExtName(pathToFile);
+  const parse = parsers(extName);
+  return parse(string);
 };
 
 const parseToString = (array) => {

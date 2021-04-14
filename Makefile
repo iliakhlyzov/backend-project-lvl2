@@ -1,6 +1,9 @@
 lint:
 	npx eslint .
 
+lf:
+	npx eslint . --fix
+
 asciinema:
 	asciinema rec
 
