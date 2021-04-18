@@ -6,5 +6,9 @@
 [![Super-Linter](https://github.com/iliakhlyzov/backend-project-lvl2/actions/workflows/superlinter.yml/badge.svg)](https://github.com/iliakhlyzov/backend-project-lvl2/actions/workflows/superlinter.yml)
 
 https://asciinema.org/a/405811 - демонстрация работы с .json
+
 https://asciinema.org/a/407241 - демонстрация работы с .yml
+
 https://asciinema.org/a/407991 - демонстрация работы с вложенными структурами
+
+https://asciinema.org/a/408047 - демонстарция работы с разными рендерами

@@ -1,5 +1,3 @@
-/* eslint import/no-unresolved: 2 */
-
 import { readFileSync } from 'fs';
 import path from 'path';
 import makeDiffTree from './src/makeDiffTree.js';

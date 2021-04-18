@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import types from './types.js';
+import types from '../types.js';
 
 const openingBracket = '{';
 const closingBracket = '}';
@@ -63,7 +63,7 @@ const formatStylish = (diffTree) => {
 
   const lines = init(diffTree, 1);
 
-  return [openingBracket, ...lines, closingBracket].join('\n');
+  return [openingBracket, ...lines, closingBracket];
 };
 
 export default formatStylish;
