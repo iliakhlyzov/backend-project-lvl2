@@ -6,6 +6,7 @@ import makeDiff from '../index.js';
 
 // gendiff __fixtures__/before.json __fixtures__/after.json
 // gendiff --format plain __fixtures__/before.json __fixtures__/after.json
+// gendiff --format json __fixtures__/before.json __fixtures__/after.json
 
 program
   .version('0.0.1')
