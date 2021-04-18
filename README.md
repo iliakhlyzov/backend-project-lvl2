@@ -7,3 +7,4 @@
 
 https://asciinema.org/a/405811 - демонстрация работы с .json
 https://asciinema.org/a/407241 - демонстрация работы с .yml
+https://asciinema.org/a/407991 - демонстрация работы с вложенными структурами
